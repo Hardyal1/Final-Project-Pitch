@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+}
+
+html{
+    max-width: 100%;
+}
+
+nav{
+    font-size: 40px;
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    border-bottom: solid black;
+    position: fixed;
+    text-align: center;
+}
+
+.dropbtn {
+    background-color: green;
+    color: black;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    width: 80px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    float: right;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 80px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    font-size: medium;
+}
+
+.container{
+    background-color: burlywood;
+    height: 800px;
+    padding-top: 80px;
+    padding-bottom: 95px;
+    max-width: 100%;
+}
+
+.box1 {
+    background-color: white;
+    max-width: 1535px;
+    max-height: 220px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.box2 {
+    background-color: white;
+    max-width: 1535px;
+    max-height: 370px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+footer{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    border-top: 2px solid black;
+}
+
+h1{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+h2{
+    padding-top: 5px;
+    text-align: center;
+    color: black;
+}
+
+h4{
+    color: black;
+    padding: 30px;
+}
+
+.logo{
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.prod{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: green;}
+
+@media only screen and (min-device-width:200px){
+    .container
+}
